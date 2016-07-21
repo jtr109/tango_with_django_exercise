@@ -47,7 +47,7 @@ def about(request):
         visits = 0
 
     context_dict = {
-        'about_message': "About page",
+        'about_message': "Rango's about page",
         'visits': visits,
     }
 
