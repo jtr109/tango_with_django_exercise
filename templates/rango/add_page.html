@@ -1,0 +1,13 @@
+{% extends 'rango/add_category.html' %}
+
+{% block title %}Add Page{% endblock %}
+
+{% block h1 %}Add a Page{% endblock %}
+
+{% block form_info %}
+    <form id="page_form" method="post" action="/rango/category/{{ category.slug }}/add_page/">
+{% endblock %}
+
+{% block input_info %}
+    <input type="submit" name="submit" value="Create Page" />
+{% endblock %}
